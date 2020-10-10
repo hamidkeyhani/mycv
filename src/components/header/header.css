@@ -1,0 +1,21 @@
+.my-header {
+    display: flex;
+    justify-content: center;
+    background: #fff;
+}
+.my-header>* {
+    color: black;
+    padding: 8px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px solid #2e6da4;
+    margin: 5px 8px;
+}
+.my-header>*:hover {
+    outline: none;
+    text-decoration: none;
+    padding: 8px 30px;
+    transition: 0.3s;
+    background: #2e6da4;
+    color: white;
+}

@@ -1,0 +1,23 @@
+* {
+    outline: 0;
+}
+.my-image {
+    border-radius: 50%;
+    border: 20px solid #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+}
+.my-summery {
+    display: flex;
+    justify-content: flex-start;
+}
+button {
+    border: 1px solid #eeeeee;
+    border-radius: 30px;
+    padding: 8px 50px;
+    outline: 0;
+}
+button:hover {
+    border: 1px solid #2e6da4;
+    transition: 0.3s;
+    outline: none;
+}

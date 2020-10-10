@@ -1,0 +1,26 @@
+
+.my-card {
+    background: #f8f8f8;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 30px;
+    margin: 50px;
+}
+.my-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.fade-enter {
+    opacity: 0;
+}
+/*.fade-leave {}*/
+/*.router-link-active {*/
+/*    color: red;*/
+/*}*/
+.fade-leave-active {
+    transition: opacity 0.2s ease;
+    opacity: 0;
+}
+.fade-enter-active {
+    transition: opacity 0.2s ease;
+}

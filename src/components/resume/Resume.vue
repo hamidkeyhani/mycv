@@ -2,6 +2,14 @@
 <style scoped src="./Resume.css"></style>
 <script>
 export default {
-name: "Resume"
+name: "Resume",
+  data() {
+    return {
+
+    }
+  },
+  methods: {
+
+  }
 }
 </script>
