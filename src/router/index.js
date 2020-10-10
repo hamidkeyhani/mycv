@@ -15,6 +15,10 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
+    redirect: Resume
+  },
+  {
+    path: '/resume',
     name: 'Resume',
     component: Resume
   },
