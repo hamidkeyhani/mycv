@@ -1,3 +1,49 @@
-<div>
-    Skills Page
+<div class="my-panel">
+    <div class="row">
+        <div class="col-md-4" style="text-align: left">
+            <h1 class="my-title">
+                Android
+            </h1>
+
+            <ul v-for="item in androidSkills" style="margin-top: 15px;">
+                <li class="skill-item" @click="openNewWindow(item.link)">
+                    {{ item.name }}
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-md-4" style="text-align: left">
+            <h1 class="my-title">
+                Web
+            </h1>
+
+            <ul v-for="item in webSkills" style="margin-top: 15px;">
+                <li class="skill-item" @click="openNewWindow(item.link)">
+                    {{ item.name }}
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-md-4" style="text-align: left">
+            <h1 class="my-title">
+                BackEnd
+            </h1>
+
+            <ul v-for="item in backEndSkills" style="margin-top: 15px;">
+                <li class="skill-item" @click="openNewWindow(item.link)">
+                    {{ item.name }}
+                </li>
+            </ul>
+
+            <h1 class="my-title">
+                Other
+            </h1>
+
+            <ul v-for="item in otherSkills" style="margin-top: 15px;">
+                <li class="skill-item" @click="openNewWindow(item.link)">
+                    {{ item.name }}
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>

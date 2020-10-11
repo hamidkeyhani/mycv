@@ -1,0 +1,25 @@
+.my-panel {
+    margin: 30px;
+}
+.my-title {
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #111dff, #a900a9);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50% 2px;
+    transition: background-size .5s ease;
+
+}
+.my-title:hover {
+    background-size: 100% 2px;
+}
+.skill-item {
+    font-size: 15pt;
+    cursor: pointer
+}
+.skill-item:hover {
+    color: blue;
+    transition: 0.3s;
+}

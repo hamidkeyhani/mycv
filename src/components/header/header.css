@@ -1,6 +1,6 @@
 .my-header {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     background: #fff;
 }
 .my-header>* {
