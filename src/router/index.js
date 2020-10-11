@@ -7,7 +7,7 @@ import Accomplishments from "@/components/accomplishments/Accomplishments";
 import Contact from "@/components/contact/Contact";
 import Education from "@/components/education/Education";
 import Experience from "@/components/experience/Experience";
-import Resume from "@/components/resume/Resume";
+import aboutMe from "@/components/aboutMe/aboutMe";
 import Skills from "@/components/skills/Skills";
 
 Vue.use(VueRouter)
@@ -15,12 +15,12 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    redirect: Resume
+    redirect: aboutMe
   },
   {
-    path: '/resume',
-    name: 'Resume',
-    component: Resume
+    path: '/aboutMe',
+    name: 'aboutMe',
+    component: aboutMe
   },
   {
     path: '/experience',
