@@ -1,0 +1,14 @@
+$light-background: #f6f6f6;
+$dark-background: #555;
+
+$main-background-color: $light-background;
+
+
+@mixin theme-mode($mode: false) {
+  @if($mode) {
+    $main-background-color: $light-background;
+  } @else {
+    $main-background-color: $dark-background;
+  }
+}
+

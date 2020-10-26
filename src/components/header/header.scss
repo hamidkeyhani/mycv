@@ -1,14 +1,15 @@
+@import "src/styles/variables";
 .my-header {
     display: flex;
     justify-content: left;
-    background: #fff;
+    background: $main-background-color;
 }
 .my-header>* {
     color: black;
     padding: 8px 30px;
     text-decoration: none;
     border-radius: 30px;
-    border: 1px solid #2e6da4;
+    border: 1px solid darkslateblue;
     margin: 5px 8px;
     transition: 0.3s ease;
 }
@@ -16,14 +17,14 @@
     outline: none;
     text-decoration: none;
     padding: 8px 30px;
-    background: #2e6da4;
+    background: darkslateblue;
     color: white;
     box-shadow: 0 8px 16px 0 rgba(0.4,0.4,0.4,0.4);
     transition: 0.3s;
 }
 .router-link-active {
     color: white;
-    background: #2e6da4;
+    background: darkslateblue;
     box-shadow: 0 8px 16px 0 rgba(0.4,0.4,0.4,0.4);
 }
 .router-link-active {

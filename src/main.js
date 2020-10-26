@@ -4,8 +4,10 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 import './assets/css/bootstrap.min.css'
+import GlobalComponents from "@/gloablComponents";
 
 Vue.config.productionTip = false
+Vue.use(GlobalComponents)
 
 new Vue({
   router,

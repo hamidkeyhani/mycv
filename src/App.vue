@@ -11,7 +11,7 @@ export default {
   components: {Home}
 }
 </script>
-<style lang="scss">
+<style>
 
 html, body{
   height: 100%;

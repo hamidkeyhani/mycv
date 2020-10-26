@@ -1,3 +1,11 @@
-<div>
-    Education Page
+<div class="my-panel">
+    <div class="row">
+        <ex-edu-item v-for="ex in educations"
+                     :year="ex.year"
+                     :company="ex.company"
+                     :position="ex.position"
+                     :description="ex.description"
+                     style="margin-top: 50px">
+        </ex-edu-item>
+    </div>
 </div>

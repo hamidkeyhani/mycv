@@ -17,7 +17,7 @@ button {
     outline: 0;
 }
 button:hover {
-    border: 1px solid #2e6da4;
+    border: 1px solid darkslateblue;
     transition: 0.3s;
     outline: none;
 }
