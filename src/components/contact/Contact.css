@@ -1,3 +1,11 @@
 .my-panel{
-    margin: 30px;
+    margin: 80px 20px;
+}
+.my-social {
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+span {
+    margin-left: 20px;
 }
