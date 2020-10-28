@@ -1,11 +1,17 @@
 .my-panel{
-    margin: 80px 20px;
+    margin: 80px 10px;
 }
 .my-social {
+    font-size: 11pt;
     display: flex;
     justify-content: flex-start;
     cursor: pointer;
 }
 span {
-    margin-left: 20px;
+    margin-left: 15px;
+}
+
+.my-social:hover {
+    color: blue;
+    transition: 0.3s;
 }
