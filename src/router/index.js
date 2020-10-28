@@ -3,12 +3,12 @@ import VueRouter from 'vue-router'
 
 import NotFound from "@/components/GeneralViews/NotFoundPage";
 
-import Accomplishments from "@/components/accomplishments/Accomplishments";
 import Contact from "@/components/contact/Contact";
 import Education from "@/components/education/Education";
 import Experience from "@/components/experience/Experience";
 import aboutMe from "@/components/aboutMe/aboutMe";
 import Skills from "@/components/skills/Skills";
+import Works from "@/components/works/Works";
 
 Vue.use(VueRouter)
 
@@ -28,9 +28,9 @@ const routes = [
     component: Experience
   },
   {
-    path: '/accomplishments',
-    name: 'Accomplishments',
-    component: Accomplishments
+    path: '/works',
+    name: 'Works',
+    component: Works
   },
   {
     path: '/contact',
