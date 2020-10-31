@@ -1,6 +1,6 @@
 <div class="row my-panel">
     <div class="card"  v-for="item in works">
-        <img :src="item.pic" alt="" height="650" style="width:100%">
+        <img :src="item.pic" alt="" height="650" style="width:100%; min-width: 400px;border-top-left-radius: 30px;border-top-right-radius: 30px">
         <h4>
             <b>
                 {{ item.company }}
@@ -10,6 +10,12 @@
             Screen Shots :
             <a style="cursor: pointer" @click="openNewTab(item.screenShots)">
                 {{ item.screenShots }}
+            </a>
+        </h4>
+        <h4>
+            Download Link :
+            <a style="cursor: pointer" @click="openNewTab(item.appLink)">
+                {{ item.appLink }}
             </a>
         </h4>
         <p>

@@ -8,9 +8,9 @@ name: "Accomplishments",
       works: [
         {
           company: "Iranian Credit Card",
-          appLink: "",
+          appLink: "https://play.google.com/store/apps/details?id=ir.iccard.app&hl=en_US",
           pic: "https://devv.ir/screen/Iccard/iccard1.jpg",
-          title: "",
+          title: "Primary project of iranian credit card company",
           screenShots: "https://devv.ir/screen/Iccard",
           description: "I work as android developer on this project"
         },
@@ -24,17 +24,17 @@ name: "Accomplishments",
         },
         {
           company: "Private",
-          appLink: "",
+          appLink: "https://play.google.com/store/apps/details?id=ir.iccard.app&hl=en_US",
           pic: "https://devv.ir/screen/Iccard/iccard5.jpg",
-          title: "",
+          title: "Primary project of iranian credit card company",
           screenShots: "https://devv.ir/screen/Iccard",
           description: "I work as android developer on this project"
         },
         {
           company: "Asa Technology Group",
-          appLink: "",
+          appLink: "https://play.google.com/store/apps/details?id=ir.iccard.app&hl=en_US",
           pic: "https://devv.ir/screen/Iccard/iccard3.jpg",
-          title: "",
+          title: "Primary project of iranian credit card company",
           screenShots: "https://devv.ir/screen/Iccard",
           description: "I work as android developer on this project"
         }
