@@ -1,26 +1,47 @@
-<div class="row my-panel">
-    <div class="card"  v-for="item in works">
-        <img :src="item.pic" alt="" height="650" style="width:100%; min-width: 400px;border-top-left-radius: 30px;border-top-right-radius: 30px">
-        <h4>
-            <b>
-                {{ item.company }}
-            </b>
-        </h4>
-        <h4>
-            Screen Shots :
-            <a style="cursor: pointer" @click="openNewTab(item.screenShots)">
-                {{ item.screenShots }}
-            </a>
-        </h4>
-        <h4>
-            Download Link :
-            <a style="cursor: pointer" @click="openNewTab(item.appLink)">
-                {{ item.appLink }}
-            </a>
-        </h4>
-        <p>
-            {{ item.description }}
-        </p>
+<div class="my-panel">
 
+    <h1 class="my-title">
+        Android
+    </h1>
+
+    <div class="android-box row">
+        <div class="card"  v-for="item in works">
+            <img :src="item.pic" alt="" height="650" style="width:100%; min-width: 300px;border-top-left-radius: 30px;border-top-right-radius: 30px">
+            <h4>
+                <b>
+                    {{ item.company }}
+                </b>
+            </h4>
+
+            <div>
+                <button v-show="!!item.screenShots" class="download-btn" @click="openNewTab(item.screenShots)">
+                    Screen Shots
+                </button>
+                <button class="download-btn" @click="openNewTab(item.appLink)">
+                    {{ item.preLink }} Link
+                </button>
+                <button class="download-btn" @click="openNewTab(item.video)">
+                    Video Link
+                </button>
+            </div>
+
+            <p>
+                <b>
+                    Description :
+                </b>
+                <br>
+                {{ item.description }}
+            </p>
+
+            <p>
+                <b>
+                    Technologies & Tools :
+                </b>
+                <br>
+                {{ item.tech }}
+            </p>
+
+        </div>
     </div>
+
 </div>

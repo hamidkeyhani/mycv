@@ -1,5 +1,21 @@
 .my-panel {
     margin: 30px;
+}
+.my-title {
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #111dff, #a900a9);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50% 2px;
+    transition: background-size .5s ease;
+
+}
+.my-title:hover {
+    background-size: 100% 2px;
+}
+.android-box {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -14,6 +30,29 @@
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-h4 {
-    padding: 5px;
+.download-btn {
+    color: black;
+    padding: 8px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px solid darkslateblue;
+    background: white;
+    margin: 5px 8px;
+    transition: 0.3s ease;
+    outline: 0;
+}
+.download-btn:hover {
+    outline: none;
+    text-decoration: none;
+    padding: 8px 30px;
+    background: darkslateblue;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0.4,0.4,0.4,0.4);
+    transition: 0.3s;
+}
+p {
+    font-size: 15pt;
+    color: black;
+    text-align: start;
+    padding: 5px 15px;
 }

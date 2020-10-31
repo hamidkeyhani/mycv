@@ -10,33 +10,51 @@ name: "Accomplishments",
           company: "Iranian Credit Card",
           appLink: "https://play.google.com/store/apps/details?id=ir.iccard.app&hl=en_US",
           pic: "https://devv.ir/screen/Iccard/iccard1.jpg",
-          title: "Primary project of iranian credit card company",
           screenShots: "https://devv.ir/screen/Iccard",
-          description: "I work as android developer on this project"
+          description: "I work as android developer on this project",
+          video: "",
+          tech: "",
+          preLink: "Download"
         },
         {
           company: "Fava",
           appLink: "https://cafebazaar.ir/app/ir.semnan.app.tourism",
           pic: "https://devv.ir/screen/SemnanTourism/semnan2.jpg",
-          title: "Semnan Tourism App",
           screenShots: "https://devv.ir/screen/SemnanTourism",
-          description: "I work as android developer on this project"
+          description: "I work as android developer on this project",
+          video: "",
+          tech: "Recycler View, Navigation Menu, MVVM Architecture, Retrofit, RxJava, kotlin, data binding",
+          preLink: "Download"
         },
         {
-          company: "Private",
+          company: "Grocery App",
           appLink: "https://play.google.com/store/apps/details?id=ir.iccard.app&hl=en_US",
-          pic: "https://devv.ir/screen/Iccard/iccard5.jpg",
-          title: "Primary project of iranian credit card company",
-          screenShots: "https://devv.ir/screen/Iccard",
-          description: "I work as android developer on this project"
+          pic: "https://devv.ir/screen/GroceryApp/Grocery2.jpg",
+          screenShots: "https://devv.ir/screen/GroceryApp",
+          description: "I work as android developer on this project",
+          video: "",
+          tech: "",
+          preLink: "Download"
         },
         {
           company: "Asa Technology Group",
           appLink: "https://play.google.com/store/apps/details?id=ir.iccard.app&hl=en_US",
           pic: "https://devv.ir/screen/Iccard/iccard3.jpg",
-          title: "Primary project of iranian credit card company",
           screenShots: "https://devv.ir/screen/Iccard",
-          description: "I work as android developer on this project"
+          description: "I work as android developer on this project",
+          video: "",
+          tech: "",
+          preLink: "Download"
+        },
+        {
+          company: "Cout Progress Bar",
+          appLink: "https://github.com/hamidkeyhani/CoutProgressBar",
+          pic: "https://devv.ir/screen/Cout/Cout.jpg",
+          screenShots: "",
+          description: "This is a progress bar library for android",
+          video: "",
+          tech: "",
+          preLink: "Github"
         }
       ]
     }
