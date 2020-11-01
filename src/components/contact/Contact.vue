@@ -14,6 +14,7 @@ name: "Contact",
           "https://gitlab.com/cout",
           "https://join.skype.com/invite/bid8xHmVl54T",
           "https://telegram.me/coutt",
+          "https://www.linkedin.com/in/hamidkeyhani/",
           "https://www.instagram.com/hamidkeyhani_/"
       ]
     }

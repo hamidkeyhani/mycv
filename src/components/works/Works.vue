@@ -7,9 +7,9 @@ name: "Accomplishments",
     return {
       works: [
         {
-          company: "Iranian Credit Card",
+          company: "Iranian Credit Card Application",
           appLink: "https://play.google.com/store/apps/details?id=ir.iccard.app&hl=en_US",
-          pic: "https://devv.ir/screen/Iccard/iccard1.jpg",
+          pic: "https://devv.ir/screen/Iccard/iccard2.jpg",
           screenShots: "https://devv.ir/screen/Iccard",
           description: "I work as android developer on this project",
           video: "",
@@ -17,31 +17,31 @@ name: "Accomplishments",
           preLink: "Download"
         },
         {
-          company: "Fava",
+          company: "Fava Application",
           appLink: "https://cafebazaar.ir/app/ir.semnan.app.tourism",
           pic: "https://devv.ir/screen/SemnanTourism/semnan2.jpg",
           screenShots: "https://devv.ir/screen/SemnanTourism",
-          description: "I work as android developer on this project",
+          description: "This is a Tourism Application for Semnan Province. I develop this app as senior android developer in Semnan Information and Communication Technology (Fava)",
           video: "",
           tech: "Recycler View, Navigation Menu, MVVM Architecture, Retrofit, RxJava, kotlin, data binding",
           preLink: "Download"
         },
         {
-          company: "Grocery App",
+          company: "Seman Market Application",
           appLink: "https://play.google.com/store/apps/details?id=ir.iccard.app&hl=en_US",
           pic: "https://devv.ir/screen/GroceryApp/Grocery2.jpg",
           screenShots: "https://devv.ir/screen/GroceryApp",
-          description: "I work as android developer on this project",
+          description: "This is a Grocery Android Application for Semnan Province",
           video: "",
           tech: "",
           preLink: "Download"
         },
         {
-          company: "Asa Technology Group",
+          company: "Smart Home Application",
           appLink: "https://play.google.com/store/apps/details?id=ir.iccard.app&hl=en_US",
-          pic: "https://devv.ir/screen/Iccard/iccard3.jpg",
-          screenShots: "https://devv.ir/screen/Iccard",
-          description: "I work as android developer on this project",
+          pic: "https://devv.ir/screen/SmartHome/SmartHome1.jpg",
+          screenShots: "https://devv.ir/screen/SmartHome",
+          description: "At Asa Technology Group I Develop Smart Home Android Application for control our products such as smart key & smart strip",
           video: "",
           tech: "",
           preLink: "Download"
