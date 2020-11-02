@@ -1,5 +1,5 @@
-<template src="./Experience.html"></template>
-<style scoped src="./Experience.css"></style>
+<template src="./Background.html"></template>
+<style scoped src="./Background.css"></style>
 <script>
 
 export default {
@@ -36,6 +36,11 @@ name: "Experience",
           year: "Jan 2015 - jan 2016",
           company: "Self Employed - Full-time",
           position: "Android Developer"
+        },
+        {
+          year: "2015 - 2019",
+          company: "Semnan University",
+          position: "Computer Science"
         }
       ]
     }

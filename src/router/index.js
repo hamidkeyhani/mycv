@@ -4,8 +4,7 @@ import VueRouter from 'vue-router'
 import NotFound from "@/components/GeneralViews/NotFoundPage";
 
 import Contact from "@/components/contact/Contact";
-import Education from "@/components/education/Education";
-import Experience from "@/components/experience/Experience";
+import Background from "@/components/background/Background";
 import aboutMe from "@/components/aboutMe/aboutMe";
 import Skills from "@/components/skills/Skills";
 import Works from "@/components/works/Works";
@@ -23,9 +22,9 @@ const routes = [
     component: aboutMe
   },
   {
-    path: '/experience',
-    name: 'Experience',
-    component: Experience
+    path: '/background',
+    name: 'Background',
+    component: Background
   },
   {
     path: '/works',
@@ -36,11 +35,6 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: Contact
-  },
-  {
-    path: '/education',
-    name: 'Education',
-    component: Education
   },
   {
     path: '/skills',
