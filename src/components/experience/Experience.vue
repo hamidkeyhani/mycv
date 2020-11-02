@@ -8,22 +8,34 @@ name: "Experience",
     return {
       experiences: [
         {
-          year: "2017 - 2018",
-          company: "Fava",
-          position: "FullStack Developer",
-          description: "You'll be in close contact with the design in order to create a tailored user experience to our merchants, as well as backend developers, developing a robust end to end solution catered to our user's needs. It's important that you have an understanding of API design and how to consume them, but don't worry, the team will be there to help you out."
+          year: "Sep 2020 - Present",
+          company: "ASA Technology Group - Full-time",
+          position: "Funder"
         },
         {
-          year: "2016 - 2017",
-          company: "Iranian Credit Card",
-          position: "Android Developer",
-          description: "Every day, merchants around the world depend on iZettle to help them run their businesses. iZettle is aiming to be the one-stop-shop for small businesses, and our Point of Sale app now has inventory as a new functionality. Inventory team is responsible for helping sellers with their stock management and with fast and reliable tools."
+          year: "Oct 2019 - Sep 2020",
+          company: "Fava - Full-time",
+          position: "Full Stack Engineer"
         },
         {
-          year: "2015 - 2016",
-          company: "Self Employed",
-          position: "Vue.js Developer",
-          description: "We are looking for a senior Android software engineer to join our inventory team. You will be part of this cross-functional team and together we will enable merchants from all around the world to grow their businesses and succeed in a world of giants!"
+          year: "Aug 2019 - Jul 2020",
+          company: "Tehran Institute of Technology - Part-time",
+          position: "Android Teacher"
+        },
+        {
+          year: "Jun 2018 - May 2019",
+          company: "Iranian Credit Card - Full-time",
+          position: "Full Stack Engineer"
+        },
+        {
+          year: "Jan 2016 - Jun 2018",
+          company: "Freelancer - Full-time",
+          position: "Android Developer"
+        },
+        {
+          year: "Jan 2015 - jan 2016",
+          company: "Self Employed - Full-time",
+          position: "Android Developer"
         }
       ]
     }

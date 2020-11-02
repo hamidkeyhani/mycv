@@ -1,11 +1,184 @@
 <div class="my-panel">
     <div class="row">
-        <ex-edu-item v-for="ex in experiences"
-                 :year="ex.year"
-                 :company="ex.company"
-                 :position="ex.position"
-                 :description="ex.description"
-                 style="margin-top: 50px">
-        </ex-edu-item>
+
+        <div class="col-md-6">
+
+            <ex-edu-item
+                    :year="experiences[0].year"
+                    :company="experiences[0].company"
+                    :position="experiences[0].position"
+                    style="margin-top: 50px">
+            </ex-edu-item>
+
+            <br>
+
+            <p class="description">
+                description come soon
+            </p>
+        </div>
+
+        <div class="col-md-6">
+
+            <ex-edu-item
+                    :year="experiences[1].year"
+                    :company="experiences[1].company"
+                    :position="experiences[1].position"
+                    style="margin-top: 50px">
+            </ex-edu-item>
+
+            <br>
+
+            <p class="description">
+                description come soon
+            </p>
+        </div>
+
+        <div class="col-md-6">
+
+            <ex-edu-item
+                    :year="experiences[2].year"
+                    :company="experiences[2].company"
+                    :position="experiences[2].position"
+                    style="margin-top: 50px">
+            </ex-edu-item>
+
+            <br>
+
+            <p class="description">
+                I held tow courses there:
+                <br>
+                <br>
+                <ul>
+                    <li>
+                        Basic Android programming
+                    </li>
+                    <li>
+                        Advance Android programming
+                    </li>
+                </ul>
+
+                </p>
+        </div>
+
+        <div class="col-md-6">
+
+            <ex-edu-item
+                    :year="experiences[3].year"
+                    :company="experiences[3].company"
+                    :position="experiences[3].position"
+                    style="margin-top: 50px">
+            </ex-edu-item>
+
+            <br>
+
+            <p class="description">
+                At Iranian credit card (iccard), I worked on Iccard android app for six months as an android developer. During these six months, I had many challenges:
+                <br>
+                <br>
+                <ul>
+                    <li>
+                        I had experience working with the volley library, My first challenge was learning Retrofit & Gson library.
+                    </li>
+                    <li>
+                        Migration from MVP to MVVM architecture
+                    </li>
+                    <li>
+                        work with constraint layout library
+                    </li>
+                    <li>
+                        Migration from java to kotlin
+                    </li>
+                    <li>
+                        Experience working with RxJava and reactive programming
+                    </li>
+                        ..
+                </ul>
+
+                In the second half, I was as a full stack developer.
+                The technologies that i used during this time:
+                <br>
+                <br>
+                <ul>
+                    <li>
+                        VueJs 2 & ES6
+                    </li>
+                    <li>
+                        PHP (medoo) & MySQLi
+                    </li>
+                    <li>
+                        One project with Node.js & TypeScript & MongoDB (mongoose)
+                    </li>
+                </ul>
+                Challenges during this time:
+                <br>
+                <br>
+                <ul>
+                    <li>
+                        Experience working with Promise class
+                    </li>
+                    <li>
+                        Experience close teamwork with large Financial technology companies such as Asan Pardakht Persian and  Parsian E-Commerce and Shaparak (Banking Web Services)
+                    </li>
+                    <li>
+                        i had to work with SOAP web services
+                    </li>
+                        ..
+                </ul>
+
+                The projects i worked on them during this time:
+                <br>
+                <br>
+
+                <ul>
+                    <li>
+                        Merchants(a web page for show and filter merchants of company)
+                    </li>
+                    <li>
+                        Bimeh (a service for buying elevator insurance online)
+                    </li>
+                    <li>
+                        SMS (company SMS panel)
+                    </li>
+                    <li>
+                        MRS (a service for merchants of company for registering card reader or online payment gateway)
+                    </li>
+                </ul>
+
+            </p>
+        </div>
+
+        <div class="col-md-6">
+
+            <ex-edu-item
+                    :year="experiences[4].year"
+                    :company="experiences[4].company"
+                    :position="experiences[4].position"
+                    style="margin-top: 50px">
+            </ex-edu-item>
+
+            <br>
+
+            <p class="description">
+                description come soon
+            </p>
+        </div>
+
+        <div class="col-md-6">
+
+            <ex-edu-item
+                    :year="experiences[5].year"
+                    :company="experiences[5].company"
+                    :position="experiences[5].position"
+                    style="margin-top: 50px">
+            </ex-edu-item>
+
+            <br>
+
+            <p class="description">
+                description come soon
+            </p>
+        </div>
+
     </div>
+
 </div>

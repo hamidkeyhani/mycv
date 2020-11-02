@@ -1,11 +1,17 @@
 <div class="my-panel">
-    <div class="row">
+    <div class="col-md-6">
         <ex-edu-item v-for="ex in educations"
                      :year="ex.year"
                      :company="ex.company"
                      :position="ex.position"
-                     :description="ex.description"
                      style="margin-top: 50px">
         </ex-edu-item>
+
+        <br>
+
+        <p class="description">
+            description come soon
+        </p>
     </div>
+
 </div>

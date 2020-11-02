@@ -6,8 +6,7 @@ export default {
   props: {
     year: String,
     company: String,
-    position: String,
-    description: String
+    position: String
   }
 }
 </script>
