@@ -2,6 +2,7 @@
 .my-header {
     display: flex;
     justify-content: left;
+    flex-wrap: wrap;
     background: $light-background;
 }
 .my-header>* {

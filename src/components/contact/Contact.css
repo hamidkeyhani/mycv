@@ -16,3 +16,14 @@ span {
     color: blue;
     transition: 0.3s;
 }
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .my-panel{
+        margin: 50px 2px;
+    }
+    span {
+        margin-left: 5px;
+        margin-top: 16px;
+        word-wrap: break-word;
+    }
+}

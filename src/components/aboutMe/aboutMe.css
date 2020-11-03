@@ -6,6 +6,10 @@
     border: 20px solid #fff;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
 }
+.my-image-root {
+    display: flex;
+    justify-content: flex-end;
+}
 .my-summery {
     display: flex;
     justify-content: flex-start;
@@ -20,4 +24,17 @@ button:hover {
     border: 1px solid darkslateblue;
     transition: 0.3s;
     outline: none;
+}
+@media only screen and (max-width: 1000px) {
+    /* For mobile phones: */
+    .my-image-root {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    span {
+        white-space: nowrap;
+    }
+    .my-summery {
+        justify-content: center;
+    }
 }

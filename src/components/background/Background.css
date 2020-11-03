@@ -23,3 +23,16 @@
 .my-title:hover {
     background-size: 100% 2px;
 }
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .my-panel {
+        margin: 5px;
+    }
+    .my-title {
+        margin-left: 5px;
+    }
+    .description {
+        margin-left: 5px;
+    }
+}

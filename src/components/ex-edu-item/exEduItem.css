@@ -22,3 +22,16 @@ p {
     margin-left: 30px;
     font-size: 16pt;
 }
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .position {
+        margin-left: 5px;
+    }
+    .year {
+        white-space: nowrap;
+        margin-left: 5px;
+    }
+    .company {
+        white-space: nowrap;
+    }
+}
