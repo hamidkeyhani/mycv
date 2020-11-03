@@ -19,15 +19,15 @@ html, body{
 }
 
 #app {
-  font-family: 'Dosis',sans-serif;
+  font-family: "Dosis Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
 @font-face {
-  font-family: "Dosis";
-  font-weight: 300;
+  font-family: "Dosis Regular";
+  font-weight: 5000;
   font-style: normal;
-  src: url('assets/fonts/Dosis.ttf') format("truetype");
+  src: url('assets/fonts/Dosis-Regular.ttf') format("truetype");
 }
 </style>
