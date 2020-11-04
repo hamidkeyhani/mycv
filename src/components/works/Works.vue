@@ -12,7 +12,7 @@ name: "Accomplishments",
           pic: "https://devv.ir/screen/Iccard/iccard2.jpg",
           screenShots: "https://devv.ir/screen/Iccard",
           description: "free and user-friendly mobile payment application that provides highly secure access to a wide range of payment services.",
-          video: "",
+          video: "https://mega.nz/file/Pb5BhajR#cBLt8rmt-khbWi_tRKlAnCjMiwQ4erF4HYqprbSvfi4",
           tech: "MVVM Architecture," +
               " Kotlin coroutines," +
               " Dagger," +
@@ -32,7 +32,7 @@ name: "Accomplishments",
           pic: "https://devv.ir/screen/SemnanTourism/semnan2.jpg",
           screenShots: "https://devv.ir/screen/SemnanTourism",
           description: "A suitable companion for traveling to Semnan",
-          video: "",
+          video: "https://mega.nz/file/fbAwyJKK#8aN8lxl4exmvIBjq41ydwEALklHTbhZxgPBWcfDSPnw",
           tech: "Recycler View, Navigation Menu, MVVM Architecture, Retrofit, RxJava, kotlin, data binding",
           preLink: "Download"
         },
@@ -42,7 +42,7 @@ name: "Accomplishments",
           pic: "https://devv.ir/screen/GroceryApp/Grocery2.jpg",
           screenShots: "https://devv.ir/screen/GroceryApp",
           description: "This is a Online Grocery Android Application for Semnan Province",
-          video: "",
+          video: "https://mega.nz/file/eHhRhQgK#SsmQ2v5ZRNk8cTdu-S0_UrisLJ4sfNmXjY6o7XLOAXs",
           tech: " MVVM architecture," +
               " RxJava & RxAndroid," +
               " Kotlin," +
@@ -73,7 +73,7 @@ name: "Accomplishments",
           pic: "https://devv.ir/screen/Cout/Cout.jpg",
           screenShots: "",
           description: "This is a progress bar library for android",
-          video: "",
+          video: "https://mega.nz/file/yCoVmQBQ#oxKaXwZnJdR7115b9Vy_ue8E79EYiSfAGeGEKMInDcY",
           tech: "Kotlin, Java, Android Animations, Android Library",
           preLink: "Github"
         }
