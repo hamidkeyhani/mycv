@@ -13,7 +13,7 @@
                 <button v-show="!!item.screenShots" class="download-btn" @click="openNewTab(item.screenShots)">
                     Screen Shots
                 </button>
-                <button class="download-btn" @click="openNewTab(item.appLink)">
+                <button v-show="!!item.appLink" class="download-btn" @click="openNewTab(item.appLink)">
                     {{ item.preLink }} Link
                 </button>
                 <button class="download-btn" @click="openNewTab(item.video)">
