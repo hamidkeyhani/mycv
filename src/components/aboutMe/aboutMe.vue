@@ -8,8 +8,11 @@ name: "aboutMe",
 
     }
   },
-  methods: {
 
+  methods: {
+    downloadResume() {
+      window.open("https://devv.ir/resume/hamidkeyhanidehnavi.pdf")
+    }
   }
 }
 </script>

@@ -155,6 +155,10 @@ name: "Skills",
       {
         'name': 'Linux Distros(Ubuntu & Manjaro)',
         'link': 'https://www.linux.org/'
+      },
+      {
+        'name': 'Git',
+        'link': 'https://www.git-scm.com/'
       }
     ]
   }

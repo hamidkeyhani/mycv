@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import NotFound from "@/components/GeneralViews/NotFoundPage";
-
 import Contact from "@/components/contact/Contact";
 import Background from "@/components/background/Background";
 import aboutMe from "@/components/aboutMe/aboutMe";
@@ -40,13 +38,10 @@ const routes = [
     path: '/skills',
     name: 'Skills',
     component: Skills
-  },
-  { path: '*', component: NotFound }
+  }
 ]
 
 const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
   routes
 })
 
